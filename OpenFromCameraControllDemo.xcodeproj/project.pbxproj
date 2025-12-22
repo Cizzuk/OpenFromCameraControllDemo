@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BED52A672EF8CB440046369B /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = BED52A662EF8CB440046369B /* Config.xcconfig */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		BE74A8A72EF8CA4D00DA2227 /* OpenFromCameraControllDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenFromCameraControllDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BED52A662EF8CB440046369B /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		BE74A89E2EF8CA4D00DA2227 = {
 			isa = PBXGroup;
 			children = (
+				BED52A662EF8CB440046369B /* Config.xcconfig */,
 				BE74A8A92EF8CA4D00DA2227 /* OpenFromCameraControllDemo */,
 				BE74A8A82EF8CA4D00DA2227 /* Products */,
 			);
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BED52A672EF8CB440046369B /* Config.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
