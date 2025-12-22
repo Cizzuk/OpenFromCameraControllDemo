@@ -237,6 +237,7 @@
 /* Begin XCBuildConfiguration section */
 		BE74A8B02EF8CA4E00DA2227 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BED52A662EF8CB440046369B /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -301,6 +302,7 @@
 		};
 		BE74A8B12EF8CA4E00DA2227 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BED52A662EF8CB440046369B /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -376,7 +378,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.cizzuk-samplecode.OpenFromCameraControllDemo.OpenFromCameraControllDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.cizzuk-samplecode.OpenFromCameraControllDemo${SAMPLE_CODE_DISAMBIGUATOR}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -412,7 +414,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.cizzuk-samplecode.OpenFromCameraControllDemo.OpenFromCameraControllDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.cizzuk-samplecode.OpenFromCameraControllDemo${SAMPLE_CODE_DISAMBIGUATOR}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -444,7 +446,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.cizzuk-samplecode.OpenFromCameraControllDemo.OpenFromCameraControllDemo.CaptureExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.cizzuk-samplecode.OpenFromCameraControllDemo${SAMPLE_CODE_DISAMBIGUATOR}.CaptureExtension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -472,7 +474,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.cizzuk-samplecode.OpenFromCameraControllDemo.OpenFromCameraControllDemo.CaptureExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.cizzuk-samplecode.OpenFromCameraControllDemo${SAMPLE_CODE_DISAMBIGUATOR}.CaptureExtension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
