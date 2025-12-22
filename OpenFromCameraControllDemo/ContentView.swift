@@ -6,9 +6,12 @@
 //
 
 import AVFoundation
+import PhotosUI
 import SwiftUI
 
 struct ContentView: View {
+    @State private var shouldOpenCamera = false
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -24,6 +27,12 @@ struct ContentView: View {
             default:
                 break
             }
+        }
+        .fullScreenCover(isPresented: $shouldOpenCamera) {
+            ImagePickerView()
+        }
+        .onReceive(NotificationCenter.default.publisher(for: .cameraControlDidActivate)) { _ in
+            shouldOpenCamera = true
         }
     }
 }
