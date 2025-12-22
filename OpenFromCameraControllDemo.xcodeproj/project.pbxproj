@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BEA74C042EF8CCF900B42514 /* CaptureIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA74C032EF8CCF100B42514 /* CaptureIntent.swift */; };
+		BEA74C052EF8CCFE00B42514 /* CaptureIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA74C032EF8CCF100B42514 /* CaptureIntent.swift */; };
 		BED52A672EF8CB440046369B /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = BED52A662EF8CB440046369B /* Config.xcconfig */; };
 		BED52A752EF8CB690046369B /* CaptureExtension.appex in Embed ExtensionKit Extensions */ = {isa = PBXBuildFile; fileRef = BED52A6C2EF8CB690046369B /* CaptureExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -37,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		BE74A8A72EF8CA4D00DA2227 /* OpenFromCameraControllDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenFromCameraControllDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA74C032EF8CCF100B42514 /* CaptureIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureIntent.swift; sourceTree = "<group>"; };
 		BED52A662EF8CB440046369B /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		BED52A6C2EF8CB690046369B /* CaptureExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.extensionkit-extension"; includeInIndex = 0; path = CaptureExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -88,6 +91,7 @@
 		BE74A89E2EF8CA4D00DA2227 = {
 			isa = PBXGroup;
 			children = (
+				BEA74C032EF8CCF100B42514 /* CaptureIntent.swift */,
 				BED52A662EF8CB440046369B /* Config.xcconfig */,
 				BE74A8A92EF8CA4D00DA2227 /* OpenFromCameraControllDemo */,
 				BED52A6D2EF8CB690046369B /* CaptureExtension */,
@@ -214,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEA74C042EF8CCF900B42514 /* CaptureIntent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEA74C052EF8CCFE00B42514 /* CaptureIntent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
