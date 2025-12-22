@@ -5,6 +5,7 @@
 //  Created by Cizzuk on 2025/12/22.
 //
 
+import AVFoundation
 import SwiftUI
 
 struct ContentView: View {
@@ -16,6 +17,14 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()
+        .onAppear {
+            switch AVCaptureDevice.authorizationStatus(for: .video) {
+            case .notDetermined:
+                AVCaptureDevice.requestAccess(for: .video) { _ in }
+            default:
+                break
+            }
+        }
     }
 }
 
